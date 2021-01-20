@@ -1,7 +1,7 @@
 #--- Linked Lists ----
 # ---------------------
 # Linked lists are really just objects with 2 properties: a data-field and a next-field (pointer)
-
+# Here we'll implement some simple insert, find and delete methods
 
 # Node class
 
@@ -74,8 +74,8 @@ itemList.insert(15)
 #print(f"Finding item: {itemList.find(13)}")
 #print(f"Finding item: {itemList.find(4)}")
 
-itemList.deleteAt(2)
-itemList.dump_list()
+#itemList.deleteAt(2)
+#itemList.dump_list()
 
 
 
