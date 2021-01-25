@@ -5,3 +5,4 @@ def issorted(itemlist):
     #in JS similar array method: .every 
     return all(itemlist[i] <= itemlist[i+1] for i in range(len(itemlist) -1))
 
+
