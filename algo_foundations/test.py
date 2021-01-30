@@ -12,10 +12,10 @@ bob = Person("Bob", 25)
 
 items = [5, 4, 2, 1]
 
-def add_two(num):
-    return num + 2
+#def add_two(num):
+#   return num + 2
 
-items_added = map(add_two, items)
+items_added = map(lambda x:x+2, items)
 
 for item in items_added:
     print(item)
