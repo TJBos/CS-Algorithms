@@ -17,8 +17,11 @@ items = [5, 4, 2, 1]
 
 items_added = map(lambda x:x+2, items)
 
-for item in items_added:
+#for item in items_added:
+#   print(item)
+
+items_filtered = filter(lambda x: x > 2, items)
+
+for item in items_filtered:
     print(item)
-
-
 
